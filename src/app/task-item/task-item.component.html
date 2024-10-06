@@ -1,0 +1,17 @@
+<p>task-item works!</p>
+<div>
+    <h3>{{ task.title }}</h3>
+    <p>Status: {{ task.completed ? 'Completed' : 'Pending' }}</p>
+</div>
+
+
+<form (ngSubmit)="onSubmit()">
+    <label for="taskTitle">Task Title:</label>
+    <input type="text" id="taskTitle" [(ngModel)]="newTask.title" name="taskTitle" required>
+  
+    <label for="taskCompleted">Completed:</label>
+    <input type="checkbox" id="taskCompleted" [(ngModel)]="newTask.completed" name="taskCompleted">
+  
+    
+    <button type="submit">Save Task</button>
+</form> 

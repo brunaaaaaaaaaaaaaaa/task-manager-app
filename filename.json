@@ -1,0 +1,20 @@
+{
+    "list":[{
+        "CompanyType": "IT company",
+        "JobType1": "Web Developer",
+        "JobType2": "Software Developer",
+        "JobType3": "Network Engeeniring",
+        "JobType4": "Software Engeeniring"
+    },
+{
+
+},
+{
+    "CompanyType": "Bussines",
+    "JobType1": "Finance",
+    "JobType2": "Bussines Addministration",
+    "JobType3": "Economics",
+    "JobType4": "Bussines IT"
+}
+]
+} 

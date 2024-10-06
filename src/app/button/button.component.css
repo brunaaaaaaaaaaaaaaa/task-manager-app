@@ -1,0 +1,14 @@
+.buton{
+    display: flex;
+    justify-content: center;
+    display: block; /* Bëni butonin një element bllok */
+    margin: 20px auto; /* Qendroni butonin */
+    padding: 10px 20px; 
+    background-color: #3498db; /* Ngjyrë e kaltër për sfondin */
+    color: white; /* Ngjyrë e bardhë për tekstin */
+    border: none; /* Hiqni kufirin */
+    border-radius: 5px; /* Kënd të rrumbullakosur */
+    font-size: 16px; /* Madhësia e fontit */
+    cursor: pointer; /* Ndryshoni kursorin në pointer kur kaloni mbi butonin */
+    transition: background-color 0.3s;
+}
